@@ -1,0 +1,14 @@
+body {
+  padding-top: 50px;
+  height: 100vh;
+	font-family: 'Raleway', sans-serif;
+	background: rgb(0,0,0);
+	background: linear-gradient(150deg, rgba(0,0,0,1) 0%, rgba(175,182,209,1) 100%);
+	color: white;
+}
+
+#brand-name {
+	font-family: 'Lilita One', cursive;
+	font-weight: 40px;
+}
+
