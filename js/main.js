@@ -37,7 +37,7 @@ $(document).ready(function(){
 		if(localStorage.getItem('tasks') != null){
 			// Loop through and display
 			$.each(taskList, function(key, value){
-				$('#task-table').append('<tr style="color:green" id="'+ value.id +'">' +
+				$('#task-table').append('<tr style="color:white" id="'+ value.id +'">' +
 										'<td>' + value.task + '</td>' +
 										'<td>' + value.task_priority + '</td>' +
 										'<td>' + value.task_date + '</td>' +
